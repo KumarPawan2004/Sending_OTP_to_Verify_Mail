@@ -1,0 +1,6 @@
+@EmailVerificationAPI_HostAddress = http://localhost:5027
+
+GET {{EmailVerificationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

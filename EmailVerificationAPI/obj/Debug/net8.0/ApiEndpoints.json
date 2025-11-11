@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "EmailVerificationAPI.Controllers.EmailController",
+    "Method": "SendOtp",
+    "RelativePath": "api/Email/send-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailVerificationAPI.Controllers.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailVerificationAPI.Controllers.EmailController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/Email/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailVerificationAPI.Controllers.VerifyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
